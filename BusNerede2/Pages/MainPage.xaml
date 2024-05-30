@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusNerede2.MainPage">
+
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Children"
+                   Margin="160,0,0,0"
+                   TextColor="Black"
+                   FontSize="30"/>
+
+            <StackLayout Padding="10">
+                <!-- Card Frame -->
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="White" Padding="10"
+                  BorderColor="DarkSeaGreen"
+                  >
+                    <StackLayout Spacing="10">
+
+                        <!-- Student Image -->
+                        <Image Source="greenstudent.png"
+                          Aspect="AspectFill"
+                          HeightRequest="150"
+                          WidthRequest="150"
+                          HorizontalOptions="Center" />
+
+                        <!-- Student Name -->
+                        <Label Text="Sarah Johnson"
+                          FontAttributes="Bold"
+                          FontSize="20"
+                          HorizontalOptions="Center" />
+
+                        <!-- Student Class -->
+                        <Label Text="Class: 6C"
+                          FontSize="16"
+                          HorizontalOptions="Center" />
+
+                        <!-- Student Age -->
+                        <Label Text="Age: 11"
+                          FontSize="16"
+                          HorizontalOptions="Center" />
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Padding="10">
+                <!-- Card Frame -->
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="White" Padding="10"
+                       BorderColor="DarkSeaGreen">
+                    <StackLayout Spacing="10">
+
+                        <!-- Student Image -->
+                        <Image Source="greenstudent.png"
+                               Aspect="AspectFill"
+                               HeightRequest="150"
+                               WidthRequest="150"
+                               HorizontalOptions="Center" />
+
+                        <!-- Student Name -->
+                        <Label Text="Sarah Johnson"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               HorizontalOptions="Center" />
+
+                        <!-- Student Class -->
+                        <Label Text="Class: 6C"
+                               FontSize="16"
+                               HorizontalOptions="Center" />
+
+                        <!-- Student Age -->
+                        <Label Text="Age: 11"
+                               FontSize="16"
+                               HorizontalOptions="Center" />
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Padding="10">
+                <!-- Card Frame -->
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="White" Padding="10"
+                       BorderColor="DarkSeaGreen">
+          
+                    <StackLayout Spacing="10">
+
+                        <!-- Student Image -->
+                        <Image Source="greenstudent.png"
+                               Aspect="AspectFill"
+                               HeightRequest="150"
+                               WidthRequest="150"
+                               HorizontalOptions="Center" />
+
+                        <!-- Student Name -->
+                        <Label Text="Sarah Johnson"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               HorizontalOptions="Center" />
+
+                        <!-- Student Class -->
+                        <Label Text="Class: 6C"
+                               FontSize="16"
+                               HorizontalOptions="Center" />
+
+                        <!-- Student Age -->
+                        <Label Text="Age: 11"
+                               FontSize="16"
+                               HorizontalOptions="Center" />
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+ 
+    </ScrollView>
+
+</ContentPage>

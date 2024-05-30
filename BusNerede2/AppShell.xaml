@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="BusNerede2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BusNerede2"
+    Shell.FlyoutBehavior="Disabled"
+    Title="BusNerede2">
+
+    <TabBar>
+
+        <Tab Title="Children" Icon="child.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Children}" Route="Children"/>
+        </Tab>
+
+        <Tab Title="Location" Icon="location.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Location}" Route="Location"/>
+        </Tab>
+
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage"/>
+        </Tab>
+
+        <Tab Title="Switch School" Icon="school.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SwitchSchool}" Route="SwitchSchool"/>
+        </Tab>
+
+        <Tab Title="ChildrenNotes" Icon="notes.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ChildrenNotes}" Route="ChildrenNotes"/>
+        </Tab>
+
+        <Tab Title="Settings" Icon="settings.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Settings}" Route="Settings"/>
+        </Tab>
+
+    </TabBar>
+
+</Shell>
