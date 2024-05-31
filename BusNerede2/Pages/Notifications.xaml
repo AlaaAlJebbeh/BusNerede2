@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusNerede2.Notifications"
+             Title="Notifications">
+    
+    
+    
+    <StackLayout VerticalOptions="Center">
+
+        <Frame BorderColor="Black" CornerRadius="5" WidthRequest="350" Margin="0,50,0,0">
+            <StackLayout Orientation="Horizontal">
+                <Frame  HeightRequest="40" WidthRequest="40" BackgroundColor="Green" CornerRadius="25"/>
+                <Label Text="Mohammed has been Dropped off" VerticalTextAlignment="Center" Margin="20,0,0,0"/>
+            </StackLayout>
+        </Frame>
+        <Frame Margin="0,50,0,0" BorderColor="Black" CornerRadius="5" WidthRequest="350">
+            <StackLayout Orientation="Horizontal">
+                <Frame  HeightRequest="40" WidthRequest="40" BackgroundColor="Orange" CornerRadius="25"/>
+                <Label Text="Yasmeen is stuck in traffic" VerticalTextAlignment="Center" Margin="20,0,0,0"/>
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black" CornerRadius="5" WidthRequest="350" Margin="0,50,0,0">
+            <StackLayout Orientation="Horizontal">
+                <Frame  HeightRequest="40" WidthRequest="40" BackgroundColor="Red" CornerRadius="25"/>
+                <Label Text="Majed Did not attened today! " VerticalTextAlignment="Center" Margin="20,0,0,0"/>
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+    
+</ContentPage>

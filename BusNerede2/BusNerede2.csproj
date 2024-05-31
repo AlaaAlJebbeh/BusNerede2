@@ -76,6 +76,7 @@
 	  <None Remove="Resources\Images\mislogo.jpeg" />
 	  <None Remove="Resources\Images\nobus.png" />
 	  <None Remove="Resources\Images\notes.png" />
+	  <None Remove="Resources\Images\notifi.png" />
 	  <None Remove="Resources\Images\otw.png" />
 	  <None Remove="Resources\Images\parentprofile.png" />
 	  <None Remove="Resources\Images\profile.png" />
@@ -113,6 +114,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\LogInParent.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Notifications.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\PopupPage.xaml">

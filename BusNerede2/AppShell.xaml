@@ -29,7 +29,7 @@
             <ShellContent ContentTemplate="{DataTemplate local:SwitchSchool}" Route="SwitchSchool"/>
         </Tab>
 
-        <Tab Title="ChildrenNotes" Icon="notes.png">
+        <Tab Title="Children Notes" Icon="notes.png">
             <ShellContent ContentTemplate="{DataTemplate local:ChildrenNotes}" Route="ChildrenNotes"/>
         </Tab>
 
@@ -39,6 +39,10 @@
 
         <Tab Title="Profile" Icon="profile.png">
             <ShellContent ContentTemplate="{DataTemplate local:Profile}" Route="Profile"/>
+        </Tab>
+
+        <Tab Title="Notifications" Icon="notifi.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Notifications}" Route="Notifications"/>
         </Tab>
 
     </TabBar>

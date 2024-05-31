@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BusNerede2.PopupPage2"
-             Title="PopupPage2">
+             Title="PopupPage2"
+             BackgroundColor="LightGray">
 
     <Grid HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White" Padding="20" WidthRequest="400" HeightRequest="450">
 
