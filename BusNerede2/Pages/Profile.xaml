@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusNerede2.Profile"
+             Title="Profile">
+
+    <ScrollView>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Profile"
+                       Margin="30,10,5,20"
+                       TextColor="Black"
+                       FontSize="30"/>
+
+                <Image Source="profile.png"
+                       BackgroundColor="White"
+                       WidthRequest="50"
+                       HeightRequest="50"
+                       Margin="190,10,20,20"/>
+
+            </StackLayout>
+
+            <Frame BackgroundColor="LightGray"
+                       CornerRadius="10" 
+                       Padding="3" 
+                       WidthRequest="460"
+                       Margin="0,30,30,0"
+                       BorderColor="LightGray">
+                <Label Text="Self Information"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       FontSize="Large"
+                       FontAttributes="Bold"/>
+            </Frame>
+
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="parentprofile.png"
+                           BackgroundColor="White"
+                           WidthRequest="150"
+                           HeightRequest="150"
+                           Margin="20,0,40,0"
+                           Grid.Row="0"
+                           Grid.Column="0"/>
+
+                    <Image Source="upload.png"
+                           BackgroundColor="White"
+                           WidthRequest="120"
+                           HeightRequest="120"
+                           Margin="20,220,40,0"
+                           Grid.Row="0"
+                           Grid.Column="0"/>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10" 
+                           Padding="3" 
+                           WidthRequest="270"
+                           HeightRequest="30"
+                           Margin="110,0,30,0"
+                           BorderColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Parent Name:"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"/>
+                            <Label Text="Emma Johnson"
+                                   TextColor="Black"
+                                   Margin="30,0,0,0"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10" 
+                           Padding="3" 
+                           WidthRequest="270"
+                           HeightRequest="30"
+                           Margin="110,80,30,0"
+                           BorderColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Relation:"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"/>
+                            <Label Text="Mother"
+                                   TextColor="Black"
+                                   Margin="30,0,0,0"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10" 
+                           Padding="3" 
+                           WidthRequest="270"
+                           HeightRequest="30"
+                           Margin="110,160,30,0"
+                           BorderColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Phone Number:"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"/>
+                            <Label Text="05526235034"
+                                   TextColor="Black"
+                                   Margin="30,0,0,0"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10" 
+                           Padding="3" 
+                           WidthRequest="270"
+                           HeightRequest="30"
+                           Margin="110,235,30,0"
+                           BorderColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Number of Children:"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"/>
+                            <Label Text="3"
+                                   TextColor="Black"
+                                   Margin="30,0,0,0"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10" 
+                           Padding="3" 
+                           WidthRequest="270"
+                           HeightRequest="30"
+                           Margin="110,235,30,0"
+                           BorderColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Backup Address:"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"/>
+                            <Label Text="Eyup Merkez XXXX"
+                                   TextColor="Black"
+                                   Margin="10,0,0,0"/>
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+
+            <Frame BackgroundColor="LightGray"
+                       CornerRadius="10" 
+                       Padding="3" 
+                       WidthRequest="460"
+                       Margin="0,30,30,0"
+                       BorderColor="LightGray">
+                <Label Text="Child Information"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       FontSize="Large"
+                       FontAttributes="Bold"/>
+            </Frame>
+
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="studentprofile.png"
+                           BackgroundColor="White"
+                           WidthRequest="150"
+                           HeightRequest="150"
+                           Margin="20,0,40,0"
+                           Grid.Row="0"
+                           Grid.Column="0"/>
+
+                    <Image Source="upload.png"
+                           BackgroundColor="White"
+                           WidthRequest="120"
+                           HeightRequest="120"
+                           Margin="20,220,40,0"
+                           Grid.Row="0"
+                           Grid.Column="0"/>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10" 
+                           Padding="3" 
+                           WidthRequest="270"
+                           HeightRequest="30"
+                           Margin="110,0,30,0"
+                           BorderColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Child Name:"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"/>
+                            <Label Text="Sarah Johnson"
+                                   TextColor="Black"
+                                   Margin="30,0,0,0"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10" 
+                           Padding="3" 
+                           WidthRequest="270"
+                           HeightRequest="30"
+                           Margin="110,80,30,0"
+                           BorderColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Class:"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"/>
+                            <Label Text="1C"
+                                   TextColor="Black"
+                                   Margin="30,0,0,0"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="10" 
+                           Padding="3" 
+                           WidthRequest="270"
+                           HeightRequest="30"
+                           Margin="110,160,30,0"
+                           BorderColor="Black"
+                           Grid.Row="0"
+                           Grid.Column="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Home Address:"
+                                   TextColor="Black"
+                                   FontAttributes="Bold"
+                                   Margin="10,0,0,0"/>
+                            <Label Text="Eyup XXXXX"
+                                   TextColor="Black"
+                                   Margin="30,0,0,0"/>
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+
+
+
+
+        </StackLayout>
+    </ScrollView>
+
+    
+</ContentPage>

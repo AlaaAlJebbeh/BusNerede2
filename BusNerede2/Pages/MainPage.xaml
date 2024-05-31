@@ -4,115 +4,37 @@
              x:Class="BusNerede2.MainPage">
 
 
-    <ScrollView>
-        <StackLayout>
-            <Label Text="Children"
-                   Margin="160,0,0,0"
-                   TextColor="Black"
-                   FontSize="30"/>
+    <StackLayout>
+        <Image Source="busnerede.png"
+                   BackgroundColor="White"
+                   WidthRequest="250"
+                   HeightRequest="250"
+                   Margin="60,20,20,0"/>
 
-            <StackLayout Padding="10">
-                <!-- Card Frame -->
-                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="White" Padding="10"
-                  BorderColor="DarkSeaGreen"
-                  >
-                    <StackLayout Spacing="10">
+        <Frame BackgroundColor="black"
+               CornerRadius="10" 
+               Padding="3" 
+               WidthRequest="300"
+               Margin="0,0,30,20"
+               BorderColor="Black">
+            <Entry x:Name="SchoolId"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="Orange"
+                   WidthRequest="200"/>
+        </Frame>
 
-                        <!-- Student Image -->
-                        <Image Source="greenstudent.png"
-                          Aspect="AspectFill"
-                          HeightRequest="150"
-                          WidthRequest="150"
-                          HorizontalOptions="Center" />
+        <Button x:Name="logInSchoolID"
+                BackgroundColor="Black"
+                CornerRadius="10" 
+                Padding="3" 
+                WidthRequest="500"
+                BorderColor="Black"
+                Text="Create Club"
+                TextColor="White"
+                Margin="10,20,0,10"
+                Clicked="logInSchoolID_Clicked"/>
 
-                        <!-- Student Name -->
-                        <Label Text="Sarah Johnson"
-                          FontAttributes="Bold"
-                          FontSize="20"
-                          HorizontalOptions="Center" />
-
-                        <!-- Student Class -->
-                        <Label Text="Class: 6C"
-                          FontSize="16"
-                          HorizontalOptions="Center" />
-
-                        <!-- Student Age -->
-                        <Label Text="Age: 11"
-                          FontSize="16"
-                          HorizontalOptions="Center" />
-
-                    </StackLayout>
-                </Frame>
-            </StackLayout>
-
-            <StackLayout Padding="10">
-                <!-- Card Frame -->
-                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="White" Padding="10"
-                       BorderColor="DarkSeaGreen">
-                    <StackLayout Spacing="10">
-
-                        <!-- Student Image -->
-                        <Image Source="greenstudent.png"
-                               Aspect="AspectFill"
-                               HeightRequest="150"
-                               WidthRequest="150"
-                               HorizontalOptions="Center" />
-
-                        <!-- Student Name -->
-                        <Label Text="Sarah Johnson"
-                               FontAttributes="Bold"
-                               FontSize="20"
-                               HorizontalOptions="Center" />
-
-                        <!-- Student Class -->
-                        <Label Text="Class: 6C"
-                               FontSize="16"
-                               HorizontalOptions="Center" />
-
-                        <!-- Student Age -->
-                        <Label Text="Age: 11"
-                               FontSize="16"
-                               HorizontalOptions="Center" />
-
-                    </StackLayout>
-                </Frame>
-            </StackLayout>
-
-            <StackLayout Padding="10">
-                <!-- Card Frame -->
-                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="White" Padding="10"
-                       BorderColor="DarkSeaGreen">
-          
-                    <StackLayout Spacing="10">
-
-                        <!-- Student Image -->
-                        <Image Source="greenstudent.png"
-                               Aspect="AspectFill"
-                               HeightRequest="150"
-                               WidthRequest="150"
-                               HorizontalOptions="Center" />
-
-                        <!-- Student Name -->
-                        <Label Text="Sarah Johnson"
-                               FontAttributes="Bold"
-                               FontSize="20"
-                               HorizontalOptions="Center" />
-
-                        <!-- Student Class -->
-                        <Label Text="Class: 6C"
-                               FontSize="16"
-                               HorizontalOptions="Center" />
-
-                        <!-- Student Age -->
-                        <Label Text="Age: 11"
-                               FontSize="16"
-                               HorizontalOptions="Center" />
-
-                    </StackLayout>
-                </Frame>
-            </StackLayout>
-        </StackLayout>
- 
-    </ScrollView>
+    </StackLayout>
 
 </ContentPage>

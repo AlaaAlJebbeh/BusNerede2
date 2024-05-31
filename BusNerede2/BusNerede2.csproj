@@ -57,14 +57,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\busnerede.png" />
 	  <None Remove="Resources\Images\child.png" />
 	  <None Remove="Resources\Images\greenstudent.png" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\location.png" />
 	  <None Remove="Resources\Images\menu.png" />
 	  <None Remove="Resources\Images\notes.png" />
+	  <None Remove="Resources\Images\parentprofile.png" />
+	  <None Remove="Resources\Images\profile.png" />
 	  <None Remove="Resources\Images\school.png" />
 	  <None Remove="Resources\Images\settings.png" />
+	  <None Remove="Resources\Images\student.png" />
+	  <None Remove="Resources\Images\studentprofile.png" />
+	  <None Remove="Resources\Images\upload.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -84,6 +90,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Location.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\LogIn.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Profile.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Settings.xaml">
