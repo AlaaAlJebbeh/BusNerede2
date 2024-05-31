@@ -6,4 +6,9 @@ public partial class Children : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnInfoButtonClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushModalAsync(new PopupPage());
+    }
 }

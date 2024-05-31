@@ -19,7 +19,7 @@
                 <StackLayout VerticalOptions="Center" Margin="10,0,0,0">
                     <Label Text="Mohammed Homsi" FontSize="Medium" FontAttributes="Bold"/>
                     <StackLayout Orientation="Horizontal">
-                        <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0"/>
+                        <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0" Clicked="OnInfoButtonClicked"/>
                         <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100"/>
                     </StackLayout>
                 </StackLayout>
@@ -35,7 +35,7 @@
                 <StackLayout VerticalOptions="Center" Margin="10,0,0,0">
                     <Label Text="Yasmeen Homsi" FontSize="Medium" FontAttributes="Bold"/>
                     <StackLayout Orientation="Horizontal">
-                        <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0"/>
+                        <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0" Clicked="OnInfoButtonClicked"/>
                         <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100"/>
                     </StackLayout>
                 </StackLayout>
@@ -51,7 +51,7 @@
                 <StackLayout VerticalOptions="Center" Margin="10,0,0,0">
                     <Label Text="Majed Homsi" FontSize="Medium" FontAttributes="Bold"/>
                     <StackLayout Orientation="Horizontal">
-                        <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0"/>
+                        <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0" Clicked="OnInfoButtonClicked"/>
                         <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100"/>
                     </StackLayout>
                 </StackLayout>
