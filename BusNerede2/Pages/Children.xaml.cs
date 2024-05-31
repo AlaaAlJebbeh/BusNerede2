@@ -11,4 +11,8 @@ public partial class Children : ContentPage
     {
         await Navigation.PushModalAsync(new PopupPage());
     }
+    private async void OnInfoButtonClicked2(object sender, EventArgs e)
+    {
+        await Navigation.PushModalAsync(new PopupPage2());
+    }
 }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusNerede2.PopupPage2"
+             Title="PopupPage2">
+
+    <Grid HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White" Padding="20" WidthRequest="400" HeightRequest="450">
+
+        <!-- Main content -->
+        <StackLayout Spacing="10" Padding="20">
+            <!-- Image and details -->
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame HeightRequest="50" WidthRequest="50" CornerRadius="50" Padding="1">
+                    <Image Source="c1.jpg" HeightRequest="50" WidthRequest="50" Aspect="AspectFill" Margin="10"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center">
+                <Frame Padding="2" Margin="0,10,0,0">
+                    <Label WidthRequest="310" Text="   Name:                    Mohammed Homsi"
+                       BackgroundColor="LightGray" Padding="6" Scale="1.1"/>
+                </Frame>
+                <Frame Padding="2" Margin="0,10,0,0">
+                    <Label WidthRequest="310" Text="   Class:                      12BSA"
+                       BackgroundColor="LightGray" Padding="6" Scale="1.1"/>
+                </Frame>
+                <Frame Padding="2" Margin="0,10,0,0">
+                    <Label WidthRequest="310" Text="   Teacher:                 +905343686430"
+                       BackgroundColor="LightGray" Padding="6" Scale="1.1"/>
+                </Frame>
+                <Frame Padding="2" Margin="0,10,0,0">
+                    <Label WidthRequest="310" Text="   Assistant:                +905343690755"
+                       BackgroundColor="LightGray" Padding="6" Scale="1.1"/>
+                </Frame>
+                <Frame Padding="2" Margin="0,10,0,0">
+                    <Label WidthRequest="310" Text="   Driver:                    +905343692248"
+                       BackgroundColor="LightGray" Padding="6" Scale="1.1"/>
+                </Frame>
+                <Frame Padding="2" Margin="0,10,0,0">
+                    <Label WidthRequest="310" Text="   BUS ID:                    010121"
+                       BackgroundColor="LightGray" Padding="6" Scale="1.1"/>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+
+        <!-- Close button positioned absolutely in the top right corner -->
+        <Button Text="X" Clicked="OnCloseButtonClicked" WidthRequest="40"
+                HeightRequest="40" BackgroundColor="Red"
+                CornerRadius="50" TextColor="White" FontAttributes="Bold"
+                HorizontalOptions="End" VerticalOptions="Start" Margin="0, -10, -10, 0"/>
+    </Grid>
+
+</ContentPage>

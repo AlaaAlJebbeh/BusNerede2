@@ -20,7 +20,7 @@
                     <Label Text="Mohammed Homsi" FontSize="Medium" FontAttributes="Bold"/>
                     <StackLayout Orientation="Horizontal">
                         <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0" Clicked="OnInfoButtonClicked"/>
-                        <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100"/>
+                        <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100" Clicked="OnInfoButtonClicked2"/>
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
@@ -36,7 +36,7 @@
                     <Label Text="Yasmeen Homsi" FontSize="Medium" FontAttributes="Bold"/>
                     <StackLayout Orientation="Horizontal">
                         <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0" Clicked="OnInfoButtonClicked"/>
-                        <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100"/>
+                        <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100" Clicked="OnInfoButtonClicked2"/>
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
@@ -52,7 +52,7 @@
                     <Label Text="Majed Homsi" FontSize="Medium" FontAttributes="Bold"/>
                     <StackLayout Orientation="Horizontal">
                         <Button Text="Info" BackgroundColor="Black" TextColor="White" WidthRequest="100" Margin="0,0,10,0" Clicked="OnInfoButtonClicked"/>
-                        <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100"/>
+                        <Button Text="Contact" BackgroundColor="Black" TextColor="White" WidthRequest="100" Clicked="OnInfoButtonClicked2"/>
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
