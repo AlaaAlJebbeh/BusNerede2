@@ -57,7 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\busnerede.png" />
+
 	  <None Remove="Resources\Images\child.png" />
 	  <None Remove="Resources\Images\greenstudent.png" />
 	  <None Remove="Resources\Images\home.png" />
