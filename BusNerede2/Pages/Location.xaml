@@ -4,4 +4,69 @@
              x:Class="BusNerede2.Location"
              Title="Location">
 
+    <ScrollView>
+        <StackLayout Spacing="20">
+
+            <!-- Top section with image and button -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10" Spacing="20">
+                <Frame WidthRequest="100" HeightRequest="100" CornerRadius="50" Padding="0" HasShadow="False" HorizontalOptions="Start" VerticalOptions="Center">
+                    <Image Aspect="AspectFill" WidthRequest="100" HeightRequest="100" x:Name="childImage" />
+                </Frame>
+                <Picker x:Name="ChildrenPicker"
+                        Title="Switch Children"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="Center"
+                        TitleColor="White"
+                        BackgroundColor="Orange"
+                        TextColor="White">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Mohammed Homsi</x:String>
+                            <x:String>Yasmeen Homsi</x:String>
+                            <x:String>Majed Homsi</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+
+            <!-- Map section -->
+            <Frame BorderColor="Black" CornerRadius="10" HasShadow="False" Padding="0" HorizontalOptions="FillAndExpand" HeightRequest="200" >
+                <!-- You can use an Image control for a static map or integrate a map control if available -->
+                <Image Source="map.jpg" Aspect="AspectFill" />
+            </Frame>
+
+            <!-- Bus route section -->
+            <StackLayout HorizontalOptions="FillAndExpand" Padding="10">
+                <Image Source="nobus.jpg" Aspect="AspectFit" HeightRequest="100" Scale="1.4" x:Name="bus"/>
+            </StackLayout>
+
+            <!-- Departure and Arrival Times -->
+            <Grid HorizontalOptions="FillAndExpand" Padding="10" ColumnSpacing="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                    <Image Source="dep.jpg" WidthRequest="50" HeightRequest="50" />
+                    <Label Text="Departure" FontAttributes="Bold" />
+                    <Label  TextColor="Black" x:Name="dep"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" HorizontalOptions="Center">
+                    <Image Source="arl.jpg" WidthRequest="50" HeightRequest="50" />
+                    <Label Text="Arrival" FontAttributes="Bold" />
+                    <Label  TextColor="Black" x:Name="arr"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Image Source="notes_icon.png" WidthRequest="30" HeightRequest="30" />
+                    <Label Text="Notes" FontAttributes="Bold" />
+                    <Label Text=""  x:Name="note" />
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+
 </ContentPage>

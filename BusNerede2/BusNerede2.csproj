@@ -57,15 +57,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\arl.jpg" />
+	  <None Remove="Resources\Images\arrived.png" />
+	  <None Remove="Resources\Images\bus.jpg" />
 	  <None Remove="Resources\Images\c1.jpg" />
 	  <None Remove="Resources\Images\c2.jpg" />
 	  <None Remove="Resources\Images\c3.jpg" />
 	  <None Remove="Resources\Images\child.png" />
+	  <None Remove="Resources\Images\childee.png" />
+	  <None Remove="Resources\Images\childee2.png" />
+	  <None Remove="Resources\Images\childee3.png" />
+	  <None Remove="Resources\Images\dep.jpg" />
 	  <None Remove="Resources\Images\greenstudent.png" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\location.png" />
+	  <None Remove="Resources\Images\map.jpg" />
 	  <None Remove="Resources\Images\menu.png" />
+	  <None Remove="Resources\Images\nobus.png" />
 	  <None Remove="Resources\Images\notes.png" />
+	  <None Remove="Resources\Images\otw.png" />
 	  <None Remove="Resources\Images\parentprofile.png" />
 	  <None Remove="Resources\Images\profile.png" />
 	  <None Remove="Resources\Images\redstudent.png" />

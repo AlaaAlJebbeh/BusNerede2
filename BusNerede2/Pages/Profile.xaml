@@ -24,7 +24,7 @@
                        CornerRadius="10" 
                        Padding="3" 
                        WidthRequest="460"
-                       Margin="0,30,30,0"
+                       Margin="0,30,30,-70"
                        BorderColor="LightGray">
                 <Label Text="Self Information"
                        HorizontalOptions="Center"
@@ -167,7 +167,7 @@
                        CornerRadius="10" 
                        Padding="3" 
                        WidthRequest="460"
-                       Margin="0,30,30,0"
+                       Margin="0,30,30,-70"
                        BorderColor="LightGray">
                 <Label Text="Child Information"
                        HorizontalOptions="Center"
@@ -265,9 +265,6 @@
                     </Frame>
                 </Grid>
             </StackLayout>
-
-
-
 
         </StackLayout>
     </ScrollView>
