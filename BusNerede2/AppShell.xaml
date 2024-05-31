@@ -9,6 +9,8 @@
 
     <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
 
+	<ShellContent ContentTemplate="{DataTemplate local:LogInParent}" Route="LogInParent" />
+
     <TabBar>
 
         <Tab Title="Children" Icon="child.png">
