@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusNerede2.LogInParent"
+             Title="LogInParent">
+
+    <StackLayout>
+        <Image Source="busnerede.png"
+               BackgroundColor="White"
+               WidthRequest="350"
+               HeightRequest="350"
+               Margin="30,20,0,0"/>
+
+        <Frame BackgroundColor="black"
+           CornerRadius="10" 
+           Padding="3" 
+           WidthRequest="200"
+           Margin="40,0,30,20"
+           BorderColor="Black">
+            <Entry x:Name="ParentId"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="Orange"
+               WidthRequest="200"
+               Margin="20,0,0,0"
+               Placeholder="Parent ID"
+               PlaceholderColor="Orange"/>
+        </Frame>
+
+        <Frame BackgroundColor="black"
+           CornerRadius="10" 
+           Padding="3" 
+           WidthRequest="200"
+           Margin="40,0,30,20"
+           BorderColor="Black">
+            <Entry x:Name="Password"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="Orange"
+               WidthRequest="200"
+               Margin="20,0,0,0"
+               Placeholder="Password"
+               PlaceholderColor="Orange"/>
+        </Frame>
+
+        <Button x:Name="logInParent"
+            BackgroundColor="Black"
+            CornerRadius="10" 
+            Padding="3" 
+            WidthRequest="200"
+            BorderColor="Black"
+            Text="Log In"
+            TextColor="White"
+            Margin="10,20,0,10"
+            Clicked="logInParent_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

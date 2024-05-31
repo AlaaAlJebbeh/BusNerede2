@@ -52,7 +52,7 @@
                     <StackLayout Spacing="10">
 
                         <!-- Student Image -->
-                        <Image Source="greenstudent.png"
+                        <Image Source="redstudent.png"
                            Aspect="AspectFill"
                            HeightRequest="150"
                            WidthRequest="150"
@@ -86,7 +86,7 @@
                     <StackLayout Spacing="10">
 
                         <!-- Student Image -->
-                        <Image Source="greenstudent.png"
+                        <Image Source="yellowstudent.png"
                            Aspect="AspectFill"
                            HeightRequest="150"
                            WidthRequest="150"
