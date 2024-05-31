@@ -73,6 +73,7 @@
 	  <None Remove="Resources\Images\location.png" />
 	  <None Remove="Resources\Images\map.jpg" />
 	  <None Remove="Resources\Images\menu.png" />
+	  <None Remove="Resources\Images\mislogo.jpeg" />
 	  <None Remove="Resources\Images\nobus.png" />
 	  <None Remove="Resources\Images\notes.png" />
 	  <None Remove="Resources\Images\otw.png" />
@@ -83,7 +84,9 @@
 	  <None Remove="Resources\Images\settings.png" />
 	  <None Remove="Resources\Images\student.png" />
 	  <None Remove="Resources\Images\studentprofile.png" />
+	  <None Remove="Resources\Images\uni.jpg" />
 	  <None Remove="Resources\Images\upload.png" />
+	  <None Remove="Resources\Images\usk.png" />
 	  <None Remove="Resources\Images\yellowstudent.png" />
 	</ItemGroup>
 

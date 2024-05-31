@@ -94,7 +94,7 @@
             </StackLayout>
 
             <StackLayout>
-                <Picker Title="Select Language" Margin="50,20,0,0" 
+                <Picker Title="Select Language" Margin="10" 
                         FontAttributes="Bold"
                         FontSize="Large"
                         >
